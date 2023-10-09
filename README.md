@@ -4,7 +4,7 @@
 
 
 
-This repo illustrates the Spark Structured Streaming
+This repo illustrates the Spark Structured Streaming and it is instructed by dogukannulu
 
 Gets random names from the API. Sends the name data to Kafka topics every 10 seconds using Airflow. Every message is read by Kafka consumer using Spark Structured Streaming and written to Cassandra table on a regular interval.
 
@@ -12,7 +12,7 @@ Gets random names from the API. Sends the name data to Kafka topics every 10 sec
 
 `stream_to_kafka.py` -> The script that gets the data from API and sends it to Kafka topic
 
-`spark_streaming.py` -> The script that consumes the data fromo Kafka topic with Spark Structured Streaming
+`spark_streaming.py` -> The script that consumes the data from Kafka topic with Spark Structured Streaming
 
 `response.json` -> Sample response coming from the API
 
